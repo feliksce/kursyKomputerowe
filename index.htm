@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--umożliwia prawidłowe renderowanie na dotykowych urządzeniach-->
+    <title>Kursy komputerowe || 2015 Piotr Cecot</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/colours.css">
+    <link rel="stylesheet" type="text/css" href="css\stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+    <body id="main">
+        
+        <!-- nawigacja górna -->
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <p class="navbar-brand"><span id="cpu">CPU</span>Kurseo</p>
+                    <span class="label label-info">BETA</span>
+                </div><!--end navbar header-->
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="./index.htm">Strona główna</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kursy<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><p class="dropdown-header">Nagłówek sekcji</p></li>
+                                <li><a href="#">MS Windows</a></li>
+                                <li><a href="#">MS Office</a></li>
+                                <li><a href="#">Internet</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./omnie.html">O mnie</a></li>
+                    </ul>
+                </div>
+            </div><!--end container-->
+        </nav>
+        <!-- koniec nawigacji górnej -->
+        
+        <!-- jumbotron -->
+        <div class="jumbotron"><!--container-fluid - kontener o maksymalnej szerokości-->
+            <div class="mask">
+                <div class="container">
+                    <h1 id="title">Komputer w domu i biurze</h1>
+                    <p id="title">kursy obsługi komputera</p>
+                </div><!--end container-->
+            </div><!-- end mask -->
+        </div><!--end jumbotron-->
+
+        <!-- pudełka na kursy -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail" id="main">
+                        <h2>System operacyjny - Windows</h2>
+                        <p class="text-justify">Jest to najpopularniejszy systm operacyjny na świecie. Najpewniej jest też zainstalowany na twoim komputerze, więc warto się z nim zapoznać dokładniej.</p>
+                        <a href="#" class="btn btn-primary" role="button">Rozpocznij!</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" id="main">
+                        <h2>Pakiet biurowy - MS Office</h2>
+                        <p class="text-justify">Pakiet biurowy, mający szerokie zastosowanie i jednocześnie prosty w użyciu. Naucz się korzystać z jego narzędzi.</p>
+                        <a href="#" class="btn btn-primary" role="button">Rozpocznij!</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail" id="main">
+                        <h2>Internet - przeglądarka internetowa</h2>
+                        <p class="text-justify">Internet łączy komputery na całym świecie i pozwala ludziom uczestniczyć w społecznościach i wymieniać informacje. Bądź świadomym użytkownikiem internetu!</p>
+                        <a href="#" class="btn btn-primary" role="button">Rozpocznij!</a>
+                    </div>
+                </div>
+            </div><!--end row-->
+        </div><!--end container-->
+        
+        <!-- stopka -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <p class="text-muted text-center small">Piotr Cecot || 2015</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

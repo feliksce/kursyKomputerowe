@@ -1,0 +1,88 @@
+@charset UTF-8;
+@import url(http://fonts.googleapis.com/css?family=Lato:700|Delius+Unicase|VT323&subset=latin-ext,latin);
+
+* {
+    font-family: 'Lato', sans-serif;
+    line-height: 150%;
+}
+
+body#main {
+    background: #199296;
+}
+
+#cpu {
+    font-family:'VT323';
+    font-size: 180%;
+    line-height:0;
+}
+
+nav.navbar.navbar-default {
+    margin: 0;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 200%;
+}
+
+p.navbar-brand {
+    margin: 0;
+    font-family: 'Delius Unicase', cursive;
+}
+
+span.label.label-info {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.jumbotron {
+    background: url("../img/desk-laptop-working-technology-large.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 200px;
+    margin-bottom: 0;
+}
+
+h1#title, p#title {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: -30px;
+}
+
+.mask {
+    height: inherit;
+    background: -webkit-linear-gradient(transparent, #199296, #199296); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #199296, #199296); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #199296, #199296); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, #199296, #199296); /* Standard syntax */
+}
+
+.thumbnail#main {
+    height: 250px;
+    padding: 1em;
+    position: relative;
+}
+
+.thumbnail#main h2 {
+    margin-top: 0px;
+}
+
+a.btn.btn-primary {
+    position: absolute;
+    bottom: 1em;
+}
+
+.btn-default {
+    border-color: #003333;
+    text-shadow: 0px 1px 0px #f6f6f6;
+    background-image: linear-gradient(to bottom, #48cccc 0%, #008080 100%);
+}
+
+.btn-default:hover {
+    border-color: #003333;
+}
+
+footer {
+    bottom: 0px;
+    background: #116669;
+}
